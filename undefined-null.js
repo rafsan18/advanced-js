@@ -38,5 +38,10 @@
 
 // getting null
 
-let fun = null;
-console.log(fun);
+// let fun = null;
+// console.log(fun);
+
+function doSomething(x, y) {
+  console.log(y);
+}
+doSomething(32);
